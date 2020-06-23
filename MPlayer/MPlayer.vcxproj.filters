@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{474d2fb0-feb0-4fe6-aab8-80478bdf5993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets">
+      <UniqueIdentifier>{94ba0f03-3f01-49fe-add3-061ae1e83cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets\MWidget">
+      <UniqueIdentifier>{6f4cca1c-5c8d-4d15-b7f2-27c913118bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets\MPushButton">
+      <UniqueIdentifier>{da595273-f9d0-46fb-854e-496eca8a4fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets\MMusicList">
+      <UniqueIdentifier>{6362fb38-4f8c-48d4-9f33-5cadab4e3fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e6943556-7ba9-4e6b-9000-e66f1ac40db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets\MControlBar">
+      <UniqueIdentifier>{d4f46661-941c-404f-af4f-98204b440b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Music">
+      <UniqueIdentifier>{41286ed1-d4a9-4654-84e4-002ed37e49d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets\MComboBox">
+      <UniqueIdentifier>{ec264cb8-c22a-41f5-91e0-5ffcff59b73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\MWidgets\MLrcControl">
+      <UniqueIdentifier>{0be29630-924c-432c-9969-360ee0f449a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MWidget.cpp">
+      <Filter>Interface\MWidgets\MWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MPlayer.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MPushButton.cpp">
+      <Filter>Interface\MWidgets\MPushButton</Filter>
+    </ClCompile>
+    <ClCompile Include="MMusicItem.cpp">
+      <Filter>Interface\MWidgets\MMusicList</Filter>
+    </ClCompile>
+    <ClCompile Include="MMusicList.cpp">
+      <Filter>Interface\MWidgets\MMusicList</Filter>
+    </ClCompile>
+    <ClCompile Include="MControlButton.cpp">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MProgressBar.cpp">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MProgressDot.cpp">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MControlBar.cpp">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Core\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="MVolumeButton.cpp">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MVolumeControl.cpp">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MComboBox.cpp">
+      <Filter>Interface\MWidgets\MComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MComboList.cpp">
+      <Filter>Interface\MWidgets\MComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="NewListDialog.cpp">
+      <Filter>Interface\MWidgets\MComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MLrcControl.cpp">
+      <Filter>Interface\MWidgets\MLrcControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MLrc.cpp">
+      <Filter>Interface\MWidgets\MLrcControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MLrcSubWidget.cpp">
+      <Filter>Interface\MWidgets\MLrcControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MPlayer.h">
+      <Filter>Interface</Filter>
+    </QtMoc>
+    <QtMoc Include="MWidget.h">
+      <Filter>Interface\MWidgets\MWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="MPushButton.h">
+      <Filter>Interface\MWidgets\MPushButton</Filter>
+    </QtMoc>
+    <QtMoc Include="MMusicItem.h">
+      <Filter>Interface\MWidgets\MMusicList</Filter>
+    </QtMoc>
+    <QtMoc Include="MMusicList.h">
+      <Filter>Interface\MWidgets\MMusicList</Filter>
+    </QtMoc>
+    <QtMoc Include="MControlButton.h">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </QtMoc>
+    <QtMoc Include="MProgressBar.h">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </QtMoc>
+    <QtMoc Include="MProgressDot.h">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </QtMoc>
+    <QtMoc Include="MControlBar.h">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </QtMoc>
+    <QtMoc Include="MVolumeButton.h">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </QtMoc>
+    <QtMoc Include="MVolumeControl.h">
+      <Filter>Interface\MWidgets\MControlBar</Filter>
+    </QtMoc>
+    <QtMoc Include="MComboBox.h">
+      <Filter>Interface\MWidgets\MComboBox</Filter>
+    </QtMoc>
+    <QtMoc Include="MComboList.h">
+      <Filter>Interface\MWidgets\MComboBox</Filter>
+    </QtMoc>
+    <QtMoc Include="NewListDialog.h">
+      <Filter>Interface\MWidgets\MComboBox</Filter>
+    </QtMoc>
+    <QtMoc Include="MLrcControl.h">
+      <Filter>Interface\MWidgets\MLrcControl</Filter>
+    </QtMoc>
+    <QtMoc Include="MLrcSubWidget.h">
+      <Filter>Interface\MWidgets\MLrcControl</Filter>
+    </QtMoc>
+    <QtMoc Include="SettingDialog.h">
+      <Filter>Interface</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Music.h">
+      <Filter>Core\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="MLrc.h">
+      <Filter>Interface\MWidgets\MLrcControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="SettingDialog.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
